@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navigation</title>
+    <style>
+        body {
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+        .nav-link {
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#section1" class="nav-link">Go to Section 1</a>
+        <a href="#section2" class="nav-link">Go to Section 2</a>
+        <button id="toggle-dark-mode">Toggle Dark Mode</button>
+    </nav>
+
+    <div id="section1" style="height: 100vh; background-color: lightblue;">
+        <h1>Section 1</h1>
+    </div>
+    <div id="section2" style="height: 100vh; background-color: lightcoral;">
+        <h1>Section 2</h1>
+    </div>
+
+    <script src="navigation.js"></script>
+</body>
+</html>
