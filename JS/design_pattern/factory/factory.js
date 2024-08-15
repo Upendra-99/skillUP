@@ -53,8 +53,10 @@ const myCar = VehicleFactory.createVehicle('car', 'Toyota', 'Corolla');
 const myBike = VehicleFactory.createVehicle('bike', 'Yamaha', 'MT-07');
 const myTruck = VehicleFactory.createVehicle('truck', 'Ford', 'F-150');
 
+console.log('') // for clear view in terminal
 myCar.drive(); // Output: Driving a Toyota Corolla car.
 myBike.ride(); // Output: Riding a Yamaha MT-07 bike.
 myTruck.haul(); // Output: Hauling with a Ford F-150 truck.
+console.log('') // for clear view in terminal
 
   

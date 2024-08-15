@@ -21,4 +21,6 @@ class CarBuilder {
   // Usage:
   const carBuilder = new CarBuilder();
   const car = carBuilder.setEngine('V8').setColor('red').build();
+  const bus = carBuilder.setEngine('V9').build();
   console.log(car)
+  console.log(bus)
